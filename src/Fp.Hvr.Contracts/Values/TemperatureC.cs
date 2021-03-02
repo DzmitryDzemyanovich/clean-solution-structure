@@ -1,0 +1,16 @@
+﻿using Fp.Hvr.Contracts.Exceptions;
+using ValueOf;
+
+namespace Fp.Hvr.Contracts.Values
+{
+    public class TemperatureC : ValueOf<int, TemperatureC>
+    {
+        protected override void Validate()
+        {
+            if (Value > 200 || Value < -273)
+            {
+                throw new InvalidTemperatureException(Value, 'C');
+            }
+        }
+    }
+}
