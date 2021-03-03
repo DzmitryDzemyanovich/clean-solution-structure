@@ -1,13 +1,13 @@
+using Fp.Hvr.Core.Models;
+using Fp.Hvr.Core.Queries;
+using Fp.Hvr.Core.Services;
+using Fp.Hvr.Core.UseCases;
+using Fp.Hvr.Core.Values;
+using NSubstitute;
 using System;
 using System.Collections.Generic;
 using System.Threading;
 using System.Threading.Tasks;
-using Fp.Hvr.Contracts;
-using Fp.Hvr.Contracts.Values;
-using Fp.Hvr.Core.Queries;
-using Fp.Hvr.Core.Services;
-using Fp.Hvr.Core.UseCases;
-using NSubstitute;
 using Xunit;
 
 namespace Fp.Hvr.Core.Tests.UseCases

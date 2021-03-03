@@ -1,6 +1,6 @@
-﻿using System.Linq;
-using Fp.Hvr.Contracts.Values;
-using Fp.Hvr.Core.Services;
+﻿using Fp.Hvr.Core.Services;
+using Fp.Hvr.Core.Values;
+using System.Linq;
 
 namespace Fp.Hvr.Infrastructure.Services
 {
@@ -13,10 +13,10 @@ namespace Fp.Hvr.Infrastructure.Services
             .Select(SummaryText.From)
             .ToArray();
 
-        public int GetCount() => 
+        public int GetCount() =>
             Summaries.Length;
 
-        public SummaryText GetSummary(int number) => 
+        public SummaryText GetSummary(int number) =>
             Summaries[number];
     }
 }

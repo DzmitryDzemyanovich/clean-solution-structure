@@ -1,10 +1,10 @@
-﻿using System.Reflection;
-using AutoMapper;
+﻿using AutoMapper;
 using Fp.Hvr.Core.Services;
 using Fp.Hvr.Infrastructure.Services;
 using MediatR;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using System.Reflection;
 
 namespace Fp.Hvr.Infrastructure
 {

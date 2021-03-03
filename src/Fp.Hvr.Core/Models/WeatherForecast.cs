@@ -1,7 +1,7 @@
-﻿using System;
-using Fp.Hvr.Contracts.Values;
+﻿using Fp.Hvr.Core.Values;
+using System;
 
-namespace Fp.Hvr.Contracts
+namespace Fp.Hvr.Core.Models
 {
     public class WeatherForecast
     {

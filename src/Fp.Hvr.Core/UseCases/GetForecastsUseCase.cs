@@ -1,10 +1,10 @@
-﻿using System.Collections.Generic;
-using System.Threading;
-using System.Threading.Tasks;
-using Fp.Hvr.Contracts;
+﻿using Fp.Hvr.Core.Models;
 using Fp.Hvr.Core.Queries;
 using Fp.Hvr.Core.Services;
 using MediatR;
+using System.Collections.Generic;
+using System.Threading;
+using System.Threading.Tasks;
 
 namespace Fp.Hvr.Core.UseCases
 {

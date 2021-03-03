@@ -1,13 +1,13 @@
-﻿using System.Collections.Generic;
-using System.Linq;
-using Microsoft.AspNetCore.Mvc;
-using Microsoft.Extensions.Logging;
-using System.Threading;
-using System.Threading.Tasks;
-using AutoMapper;
-using Fp.Hvr.Api.ViewModels;
+﻿using AutoMapper;
+using Fp.Hvr.Contracts.Models;
 using Fp.Hvr.Core.Queries;
 using MediatR;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Logging;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading;
+using System.Threading.Tasks;
 using static Microsoft.AspNetCore.Http.StatusCodes;
 
 namespace Fp.Hvr.Api.Controllers
@@ -34,7 +34,7 @@ namespace Fp.Hvr.Api.Controllers
         [ProducesResponseType(Status500InternalServerError)]
         public async Task<IActionResult> GetAsync(int recordsNumber, CancellationToken cancellationToken)
         {
-            GetForecastsQuery query = new (recordsNumber);
+            GetForecastsQuery query = new(recordsNumber);
             var forecasts = await _mediator.Send(query, cancellationToken);
 
             _logger.LogInformation($"{forecasts.Count()} forecasts returned.");

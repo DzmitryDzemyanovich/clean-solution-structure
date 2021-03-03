@@ -1,10 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using AutoMapper;
-using Fp.Hvr.Api.ViewModels;
-using Fp.Hvr.Contracts;
+﻿using AutoMapper;
+using Fp.Hvr.Contracts.Models;
+using Fp.Hvr.Core.Models;
 
 namespace Fp.Hvr.Api.Mappings
 {
