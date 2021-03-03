@@ -1,10 +1,10 @@
-﻿using System;
+﻿using Fp.Hvr.Core.Models;
+using Fp.Hvr.Core.Services;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
-using Fp.Hvr.Contracts;
-using Fp.Hvr.Core.Services;
 
 namespace Fp.Hvr.Infrastructure.Services
 {

@@ -1,6 +1,6 @@
-﻿using System.Collections.Generic;
-using Fp.Hvr.Contracts;
+﻿using Fp.Hvr.Core.Models;
 using MediatR;
+using System.Collections.Generic;
 
 namespace Fp.Hvr.Core.Queries
 {

@@ -1,10 +1,10 @@
-using System.Threading;
-using System.Threading.Tasks;
 using FluentAssertions;
-using Fp.Hvr.Contracts.Values;
 using Fp.Hvr.Core.Services;
+using Fp.Hvr.Core.Values;
 using Fp.Hvr.Infrastructure.Services;
 using NSubstitute;
+using System.Threading;
+using System.Threading.Tasks;
 using Xunit;
 
 namespace Fp.Hvr.Infrastructure.Tests.Services

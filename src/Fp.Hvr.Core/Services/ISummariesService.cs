@@ -1,4 +1,4 @@
-﻿using Fp.Hvr.Contracts.Values;
+﻿using Fp.Hvr.Core.Values;
 
 namespace Fp.Hvr.Core.Services
 {

@@ -1,6 +1,6 @@
 ﻿using ValueOf;
 
-namespace Fp.Hvr.Contracts.Values
+namespace Fp.Hvr.Core.Values
 {
     public class SummaryText : ValueOf<string, SummaryText> { }
 }

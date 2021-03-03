@@ -1,7 +1,7 @@
 ﻿using Fp.Hvr.Contracts.Exceptions;
 using ValueOf;
 
-namespace Fp.Hvr.Contracts.Values
+namespace Fp.Hvr.Core.Values
 {
     public class TemperatureF : ValueOf<float, TemperatureF>
     {
